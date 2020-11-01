@@ -7,7 +7,11 @@
     <groupId>com.kuang</groupId>
     <artifactId>springcloud</artifactId>
     <version>1.0-SNAPSHOT</version>
-<!--打包方式 pom-->
+    <modules>
+        <module>springcloudapi</module>
+        <module>springcloud-provide-dept-8001</module>
+    </modules>
+    <!--打包方式 pom-->
     <packaging>pom</packaging>
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
@@ -48,7 +52,7 @@
             <!--springboot-->
             <dependency>
                 <groupId>org.mybatis.spring.boot</groupId>
-                <artifactId>mybatis-boot-starter</artifactId>
+                <artifactId>mybatis-spring-boot-starter</artifactId>
                 <version>1.3.2</version>
             </dependency>
 <!--            junit-->
