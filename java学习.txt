@@ -1,0 +1,66 @@
+springcloud:
+1.回顾之前的知识：
+。javaSE
+。数据库
+。前端
+。Servlet
+。Http
+。Mybatis
+。Spring
+。SpringMvc
+。SpringBoot
+。Dubbo,Zookeeper,分布式基础
+。Maven,Git
+。Ajax,json,
+。。。
+2.
+
+三层架构+mvc  
+框架：
+spring ioc aop (框架简化代码)
+springboot (简化配置)  自动装配
+模块化
+
+微服务架构解决4个问题：
+1.服务很多，客户端怎么访问？
+2.这么多服务？服务之间怎么通信？
+3.这么多服务？如何治理
+4.服务挂了怎么办？
+解决方案：
+springcloud 生态  spring boot
+1.spring cloud netflix 
+api 网关 zuul 组件   
+feign  --httpclient ---http 通信方式，同步，阻塞
+服务注册与发现：Eureka
+熔断机制：Hystrix
+
+
+2.spring Dubbo Zookeeper 半自动
+api:没有 找第三方 ，或者自己实现
+dubbo:基于rpc 的通信框架
+zookeeper:注册中心；
+熔断机制：没有
+
+
+
+3.spring cloud Alibaba  一站式解决方案，更简单
+
+新概念：服务网格--service Mesh
+
+
+
+万变不离其宗：
+1：API
+2:HTTP ,RPC
+3.注册与发现
+4。熔断机制
+
+网络不可靠：
+
+
+什么是微服务：
+微服务的核心：
+将传统的一站式应用，根据业务拆分成一个一个的服务，彻底地去耦合，每一个微服务提供单个业务功能的服务，一个服务做
+一件事，从技术角度看就是一种小而独立的处理过程，类似进程的概念，能够自行单独启动或销毁，拥有自己的数据库。
+
+设计模式 + 微服务拆分思想 
