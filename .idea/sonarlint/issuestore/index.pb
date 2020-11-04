@@ -1,0 +1,27 @@
+
+é
+^springcloud-provide-dept-8001/src/main/java/com/kuang/springcloud/service/DeptServiceImpl.java,2\4\246917f8d917aa40b85586b0a403f1aa57114974
+F
+springcloudapi/pom.xml,f\f\ff84575b575adc7685737e4d954171b7a43c0488
+7
+pom.xml,4\4\442292b8a7efeabbe4cc176709b833b1792140ec
+ê
+`springcloud-provide-dept-8001/src/main/java/com/kuang/springcloud/Controller/DeptController.java,b\4\b4c9685a099953fda9dc7a11126ce98bda0ed584
+Ç
+Rspringcloud-provide-dept-8001/src/main/java/com/kuang/springcloud/dao/DeptDao.java,c\2\c2c60252d87334e0587272963f5ecbe6edd16639
+T
+$springcloud-consumer-dept-80/pom.xml,0\8\087a91afe8b1c8b482712c000e0e2819fdc26342
+á
+Wspringcloud-consumer-dept-80/src/main/java/com/kuang/springcloud/config/ConfigBean.java,f\0\f0dfe76403441f0e9ac8c067dabcd55636125fff
+à
+Xspringcloud-provide-dept-8001/src/main/java/com/kuang/springcloud/DeptProvider_8001.java,0\a\0abc9b2e3cd033f7e978b4286d335646f47a66d3
+Ö
+Uspringcloud-consumer-dept-80/src/main/java/com/kuang/springcloud/DeptConsumer_80.java,2\8\2893e342e3d47ab23db5ac34e8956fe1be39eee1
+ó
+gspringcloud-consumer-dept-80/src/main/java/com/kuang/springcloud/controller/DeptConsumerController.java,4\f\4fa5533f85c7464db854ecf5e68920d70951e5d1
+U
+%springcloud-provide-dept-8001/pom.xml,b\1\b17d2b26309ace99a6647b631ad03da0eed9d9d2
+O
+springcloud-eureka-7001/pom.xml,4\c\4c59a63ca1961659e7689b727da349bc37d25845
+É
+Sspringcloud-eureka-7001/src/main/java/com/kuang/springcloud/EurekaService_7001.java,4\b\4b7c369a7f4b3c5c03096d828f253c23b7f97a98
