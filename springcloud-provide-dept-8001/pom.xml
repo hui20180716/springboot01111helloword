@@ -12,6 +12,13 @@
     <artifactId>springcloud-provide-dept-8001</artifactId>
 <dependencies>
 <!--    我们需要拿到实体类，所以要配置api module-->
+    <!-- https://mvnrepository.com/artifact/org.springframework.cloud/spring-cloud-starter-eureka -->
+    <dependency>
+        <groupId>org.springframework.cloud</groupId>
+        <artifactId>spring-cloud-starter-eureka</artifactId>
+        <version>1.4.6.RELEASE</version>
+    </dependency>
+
     <dependency>
         <groupId>com.kuang</groupId>
         <artifactId>springcloud-api</artifactId>
