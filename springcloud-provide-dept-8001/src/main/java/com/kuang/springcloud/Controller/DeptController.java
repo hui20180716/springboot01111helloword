@@ -6,7 +6,7 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RestController;
-import springcloud.pojo.Dept;
+import com.kuang.springcloud.pojo.Dept;
 
 import java.util.List;
 
@@ -21,6 +21,10 @@ public class DeptController {
 
     @GetMapping("/dept/get/{id}")
     public Dept getById(@PathVariable("id") Long id){
+        Dept dept = deptService.queryById(id);
+        if(dept ==null){
+            throw new RuntimeException("id=>"+id+",不存在该用户");
+        }
         return  deptService.queryById(id);
     }
 

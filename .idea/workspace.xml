@@ -25,12 +25,14 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/springcloud" />
+    <option name="UPDATE_TYPE" value="MERGE" />
   </component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
@@ -46,6 +48,7 @@
     </option>
   </component>
   <component name="ProjectId" id="1jgUlxoGc9vc7QTVrALZXvWjpPn" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
     <property name="DatabaseDriversLRU" value="mysql" />
     <property name="RequestMappingsPanelOrder0" value="0" />
@@ -56,7 +59,7 @@
     <property name="SONARLINT_PRECOMMIT_ANALYSIS" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="D:/Andfleethe" />
+    <property name="last_opened_file_path" value="D:/andfleethe" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -67,6 +70,24 @@
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.24593967" />
     <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\gethub\springcloud" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.kuang.springcloud" />
+      <recent name="springcloud" />
+      <recent name="a" />
+      <recent name="" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\gethub\springcloud\springcloud-config-eurrka-7001\src\main\resources" />
+      <recent name="D:\gethub\springcloud\springcloud-config-eurrka-7001\src" />
+      <recent name="D:\gethub\springcloud\springcloud-config-service-3344\src\main\resources" />
+      <recent name="D:\gethub\springcloud\springboot-zuul-9527\src\main\resources" />
+      <recent name="D:\gethub\springcloud\springcloudconsumerhystrixdashboard\src\main\resources" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -80,10 +101,10 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.DeptProvider_8001">
-    <configuration name="DeptConsumer_80" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.kuang.springcloud.DeptConsumer_80" />
-      <module name="springcloud-consumer-dept-80" />
+  <component name="RunManager" selected="Spring Boot.Config_Server_3344">
+    <configuration name="ConfigClient_3355" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.kuang.springcloud.ConfigClient_3355" />
+      <module name="springcloudconfigclient3355" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.kuang.springcloud.*" />
@@ -94,21 +115,34 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DeptProvider_8001" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
-      <module name="springcloud-provide-dept-8001" />
+    <configuration name="Config_Server_3344" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="springcloudconfigservice3344" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.kuang.springcloud.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.kuang.springcloud.DeptProvider_8001" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.kuang.springcloud.Config_Server_3344" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DeptConsumerDashboard_9001" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="springcloudconsumerhystrixdashboard" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="a.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="a.DeptConsumerDashboard_9001" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <configuration name="EurekaService_7001" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
-      <module name="springcloud-eureka-7001" />
+      <module name="springcloudconfigeurrka7001" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.kuang.springcloud.*" />
@@ -120,11 +154,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="ZuulApplication_9527" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="springbootzuul9527" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.kuang.springclou.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.kuang.springclou.ZuulApplication_9527" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Spring Boot.DeptProvider_8001" />
-        <item itemvalue="Application.DeptConsumer_80" />
         <item itemvalue="Spring Boot.EurekaService_7001" />
+        <item itemvalue="Spring Boot.Config_Server_3344" />
+        <item itemvalue="Application.ConfigClient_3355" />
+        <item itemvalue="Spring Boot.ZuulApplication_9527" />
+        <item itemvalue="Spring Boot.DeptConsumerDashboard_9001" />
       </list>
     </recent_temporary>
   </component>
@@ -146,7 +195,12 @@
       <workItem from="1604500117964" duration="1259000" />
       <workItem from="1604501522409" duration="1845000" />
       <workItem from="1604538024346" duration="882000" />
-      <workItem from="1604581971728" duration="1836000" />
+      <workItem from="1604581971728" duration="3508000" />
+      <workItem from="1604993175396" duration="11936000" />
+      <workItem from="1605057482473" duration="43000" />
+      <workItem from="1605165923842" duration="141000" />
+      <workItem from="1605941517893" duration="22118000" />
+      <workItem from="1606094218599" duration="1903000" />
     </task>
     <task id="LOCAL-00001" summary="aa">
       <created>1604503296949</created>
@@ -169,7 +223,14 @@
       <option name="project" value="LOCAL" />
       <updated>1604583516631</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="aa">
+      <created>1604584056403</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1604584056403</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -178,6 +239,31 @@
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
       <map>
+        <entry key="1">
+          <value>
+            <State>
+              <option name="SHOW_ONLY_AFFECTED_CHANGES" value="true" />
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="HEAD" />
+                      </list>
+                    </value>
+                  </entry>
+                  <entry key="roots">
+                    <value>
+                      <list>
+                        <option value="$PROJECT_DIR$" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
         <entry key="MAIN">
           <value>
             <State>
@@ -186,6 +272,11 @@
           </value>
         </entry>
       </map>
+    </option>
+    <option name="OPEN_TABS">
+      <set>
+        <option value="1" />
+      </set>
     </option>
   </component>
   <component name="VcsManagerConfiguration">
@@ -199,6 +290,11 @@
           <url>file://$PROJECT_DIR$/springcloud-provide-dept-8001/src/main/java/com/kuang/springcloud/service/DeptServiceImpl.java</url>
           <line>20</line>
           <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/springcloud-consumer-dept-80/src/main/java/com/kuang/springcloud/controller/DeptConsumerController.java</url>
+          <line>20</line>
+          <option name="timeStamp" value="2" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

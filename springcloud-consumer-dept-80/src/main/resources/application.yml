@@ -9,5 +9,6 @@ eureka:
   instance:
     instance-id: springcloud-consumer-dept80 #修改eureka 的默认配置
 spring:
+  profiles: dev
   application:
     name: springcloud-consumer-dept-80

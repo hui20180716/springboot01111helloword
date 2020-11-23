@@ -3,7 +3,7 @@ package com.kuang.springcloud.service;
 import com.kuang.springcloud.dao.DeptDao;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
-import springcloud.pojo.Dept;
+import com.kuang.springcloud.pojo.Dept;
 
 import java.util.List;
 @Service

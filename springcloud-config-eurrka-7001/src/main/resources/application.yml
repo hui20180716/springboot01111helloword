@@ -1,0 +1,3 @@
+spring:
+  application:
+    name: springcloud-config-eurrka-7001

@@ -8,7 +8,7 @@ mybatis:
 #spring 的配置
 spring:
   application:
-    name: springcloud-provide-dept-8001
+    name: springcloud-provider-dept
   datasource:
     type: com.alibaba.druid.pool.DruidDataSource #数据源
     driver-class-name: org.gjt.mm.mysql.Driver

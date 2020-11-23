@@ -2,7 +2,7 @@ package com.kuang.springcloud.dao;
 
 import org.apache.ibatis.annotations.Mapper;
 import org.springframework.stereotype.Repository;
-import springcloud.pojo.Dept;
+import com.kuang.springcloud.pojo.Dept;
 
 import java.util.List;
 
